@@ -26,3 +26,14 @@ flutter:
         pluginClass: PerAppLanguagePlugin
       ios:
         pluginClass: PerAppLanguagePlugin
+
+topics:
+  - localization
+  - i18n
+  - l10n
+  - language
+  - settings
+
+screenshots:
+  - description: Following the device, changed in Android settings, changed in the app, and Android's App language screen.
+    path: doc/android.png
