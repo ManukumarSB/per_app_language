@@ -1,0 +1,19 @@
+{
+  "@@locale": "en",
+  "title": "Language",
+  "hello": "Hello!",
+  "body": "This screen is in English.",
+  "system": "Device language",
+  "systemHint": "Follows your phone settings",
+  "openSettings": "Open system settings",
+  "noSettings": "This OS has no per-app language screen, so use the list above.",
+  "following": "Following the device language",
+  "chosen": "App language: {language}",
+  "@chosen": {
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  }
+}

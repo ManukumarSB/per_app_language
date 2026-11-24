@@ -1,16 +1,16 @@
-# per_app_language_example
+# per_app_language example
 
-Demonstrates how to use the per_app_language plugin.
+A small app localized in English, Spanish, Hindi and Kannada with Flutter's
+`gen-l10n`. Pick a language in the app or in the phone's settings and watch
+the other follow.
 
-## Getting Started
+```sh
+dart run per_app_language:setup   # already done here; shows how it's used
+flutter run
+```
 
-This project is a starting point for a Flutter application.
+`integration_test/` runs against the real Kotlin and Swift code:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```sh
+flutter test integration_test -d <device>
+```

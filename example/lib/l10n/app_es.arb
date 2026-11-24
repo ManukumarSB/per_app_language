@@ -1,0 +1,12 @@
+{
+  "@@locale": "es",
+  "title": "Idioma",
+  "hello": "¡Hola!",
+  "body": "Esta pantalla está en español.",
+  "system": "Idioma del dispositivo",
+  "systemHint": "Sigue los ajustes de tu teléfono",
+  "openSettings": "Abrir ajustes del sistema",
+  "noSettings": "Este sistema no tiene ajustes de idioma por app; usa la lista de arriba.",
+  "following": "Usando el idioma del dispositivo",
+  "chosen": "Idioma de la app: {language}"
+}
