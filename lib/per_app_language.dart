@@ -1,8 +1,6 @@
+/// Per-app language that stays in sync with Android 13+ and iOS system
+/// settings.
+library;
 
-import 'per_app_language_platform_interface.dart';
-
-class PerAppLanguage {
-  Future<String?> getPlatformVersion() {
-    return PerAppLanguagePlatform.instance.getPlatformVersion();
-  }
-}
+export 'src/app_language.dart' show AppLanguage, parseLanguageTag;
+export 'src/app_language_builder.dart';
