@@ -1,0 +1,28 @@
+name: per_app_language
+description: Let users pick your app's language in Android 13+ and iOS system settings, and keep Flutter in sync. Includes a setup command for the native config.
+version: 0.1.0
+homepage: https://github.com/ManukumarSB/per_app_language
+repository: https://github.com/ManukumarSB/per_app_language
+issue_tracker: https://github.com/ManukumarSB/per_app_language/issues
+
+environment:
+  sdk: ^3.8.0
+  flutter: ">=3.32.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: dev.manukumarsb.per_app_language
+        pluginClass: PerAppLanguagePlugin
+      ios:
+        pluginClass: PerAppLanguagePlugin
