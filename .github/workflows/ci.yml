@@ -33,5 +33,10 @@ jobs:
       - name: test against lowest dependency versions
         run: flutter pub downgrade && flutter test
         if: matrix.channel == 'min'
+      # Newer Flutter sometimes rewrites tracked files (analysis_options,
+      # lockfiles); show what, so the dry-run's "modified files" is explainable.
+      - name: show files the toolchain changed
+        run: git status --short && git diff
+        if: matrix.channel == 'stable'
       - run: flutter pub publish --dry-run
         if: matrix.channel == 'stable'
